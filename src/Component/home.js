@@ -10,6 +10,7 @@ import { IconButton } from '@mui/material';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 import WelcomeModal from './modalFirstComming';
 import { useMediaQuery } from 'react-responsive';
+import logo from './image/IconFauteuil.jpg';
 
 export default function Home() {
   const [edit, setEdit] = useState(false);
@@ -28,6 +29,7 @@ export default function Home() {
   const titleHomeTextcolor = useSelector((state) => state.counter.titleHomeTextcolor);
   const subTitleHomeTextcolor = useSelector((state) => state.counter.subTitleHomeTextcolor);
   const hideEdit = useSelector((state) => state.counter.hideEdit);
+  
 
   const handleFileUpload = (event, id) => {
     const file = event.target.files[0];
@@ -122,6 +124,8 @@ export default function Home() {
                 {edit && !hideEdit && <input type="text" style={{ width: 500 }} onChange={(text) => dispatchTitle(text.target.value)} defaultValue={title} placeholder="Title" />}
               </div>
               <h1 class="wow fadeInUp" data-wow-delay=".5s" style={{ color: "#1D1614", textShadow: "1px 1px 2px rgba(0,0,0,0.2)", fontWeight: 600 }}>{title}</h1>
+              <img src={logo} alt="Icône Fauteuil" style={{ width: '100%', maxWidth: '300px', height: 'auto', margin: '0 auto' }} />
+
               <p class="lead wow fadeInUp" data-wow-delay=".75s" style={{ color: "#2D2D2D", textShadow: "1px 1px 2px rgba(0,0,0,0.1)", fontWeight: 500 }}>{description}</p>
               <div style={{ display: "flex", position: "relative" }}>
                 {!edit && !hideEdit && <div style={{ position: "absolute", top: -10, right: 10 }}>
@@ -130,6 +134,7 @@ export default function Home() {
                 {edit && !hideEdit && <div style={{ position: "absolute", top: -10, right: 10 }}>
                   <a href={"#modif"} class="circle-icon" style={{ backgroundColor: color }} onClick={() => { setEdit(false) }}><i class="fa fa-check fa-lg" style={{ color: "black" }}></i></a>
                 </div>}
+                {/* //Mettre logo */}
                 {edit && !hideEdit && <textarea type="text-area" style={{ width: 500 }} onChange={(text) => dispatchDescription(text.target.value)} defaultValue={description} placeholder="Description" rows="5" cols="33" />}
               </div>
               <div class="spacer-20"></div>
