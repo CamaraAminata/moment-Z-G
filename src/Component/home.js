@@ -133,7 +133,7 @@ export default function Home() {
                 {edit && !hideEdit && <textarea type="text-area" style={{ width: 500 }} onChange={(text) => dispatchDescription(text.target.value)} defaultValue={description} placeholder="Description" rows="5" cols="33" />}
               </div>
               <div class="spacer-20"></div>
-              <a class="btn-custom scroll-to wow fadeInUp" data-wow-delay="1s" style={{ backgroundColor: "#7C98AB", boxShadow: "2px 2px 4px rgba(0,0,0,0.15)" }} href="#section-about">{isFrench ? "En savoir plus" : "Learn more"}</a>
+              <a class="btn-custom scroll-to wow fadeInUp" data-wow-delay="1s" style={{ backgroundColor: "#7C98AB", boxShadow: "2px 2px 4px rgba(0,0,0,0.15)" }} href="#section-fauteuil">{isFrench ? "En savoir plus" : "Learn more"}</a>
             </div>
           </div>
         </div>

@@ -48,8 +48,8 @@ const Fauteuil = () => {
                 {
                     titre: "Massage à l'air comprimé",
                     details: {
-                        description: "Un massage complet, de la tête aux pieds. 48 coussinets d'air recouvrent l'intégralité du fauteuil",
-                        zones: ["Main et bras", "Pieds et mollets", "Épaules", "Hanches et cuisses", "Massage des genoux"]
+                        Description: "Un massage complet, de la tête aux pieds. 48 coussinets d'air recouvrent l'intégralité du fauteuil",
+                        Zones: ["Main et bras", "Pieds et mollets", "Épaules", "Hanches et cuisses", "Massage des genoux"]
                     }
                 },
                 {
