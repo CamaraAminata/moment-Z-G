@@ -6,7 +6,7 @@ const Fauteuil = () => {
     const fauteuils = [
         {
             nom: "Titan 2",
-            description: "Nos fauteuils massants sont équipés dernières technologies pour vous offrir un massage complet et relaxant. Chaque séance est pensée pour vous procurer une détente maximale.",
+            description: "",
             caracteristiques: [
                 {
                     titre: "24 programmes automatiques",

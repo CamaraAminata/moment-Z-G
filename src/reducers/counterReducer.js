@@ -4,7 +4,7 @@ const initialState = {
   backgroundFirst: "images/background/background-sable.jpg",
   titleText:'Bienvenue à "Un moment Z-G"',
   descriptionText:"Votre havre de détente et bien-être en plein cœur de Hyères. Nous offrons une expérience unique de relaxation et de bien-être.",
-  aboutText:"Àgée de trente six ans,  employée étages équipière et citoyenne engagée au service des autres. Mon parcours professionnel a toujours était du service à la personne. Je suis une personne bienveillante, disponible et à l'écoute. Patiente et ayant la maîtrise de soi. Je suis animés par profond désir d'être utile aux autres et attaché au respect de toute personnne, quelles que soient son origines et sa situation sociale. Mon parcours, mes savoirs, mes savoirs-faire, mes savoirs-être sont en cohérence avec mon projet. ",
+  aboutText:"Citoyenne engagée au service des autres. Mon parcours professionnel a toujours était du service à la personne. Je suis une personne bienveillante, disponible et à l'écoute. Patiente et ayant la maîtrise de soi. Je suis animés par profond désir d'être utile aux autres et attaché au respect de toute personnne, quelles que soient son origines et sa situation sociale. Mon parcours, mes savoirs, mes savoirs-faire, mes savoirs-être sont en cohérence avec mon projet. ",
   imageAboutFirst : "images/misc/IconFauteuil.jpg",
   imageAboutSecond : "images/misc/IconFauteuil.jpg",
   tabCompetences : [
