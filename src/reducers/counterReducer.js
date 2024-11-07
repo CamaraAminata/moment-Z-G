@@ -27,8 +27,8 @@ const initialState = {
   mailEmail:"",
   mailPhone:"",
   contactNumber:"06 67 80 75 14",
-  contactEmail:"5 Place Massillon 83400 Hyères",
-  contactAddress:"aminatacamara2602@gmail.com",
+  contactEmail:"aminatacamara2602@gmail.com",
+  contactAddress:"5 Place Massillon 83400 Hyères",
   hideEdit : true,
   isFrench : true,
   visited:true
