@@ -117,7 +117,7 @@ return(
         <div class="col-lg-5 offset-md-1 wow fadeInLeft" data-wow-delay=".5s">
         {!hideEdit &&<ModalTextColor style={{ marginTop: 10, marginBottom: 10, backgroundColor: color}} styleMobile={{backgroundColor:color,top:10 , right:0 ,position:'absolute', color:'white',zIndex:2}} titleColor={"titleAboutTextcolor"} subTitle={"subTitleAboutTextcolor"} />}
 
-          <h2 style={{color:titleAboutTextcolor}}>{isFrench ? "A propos" : "About "}<span class="id-color" style={{color:color}}>{isFrench ? "Moi" : "Me"}</span></h2>
+          <h2 style={{color:titleAboutTextcolor}}>{isFrench ? "A propos de " : "About "}<span class="id-color" style={{color:color}}>{isFrench ? "Moi" : "Me"}</span></h2>
           <p style={{color:subTitleAboutTextcolor}}>
             {about}
           </p>

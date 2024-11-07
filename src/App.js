@@ -8,7 +8,8 @@ import CommentScreen from './Component/commentScreen';
 import PortfolioScreen from './Component/portfolioScreen';
 import ContactUs from './Component/contactUs';
 import Fauteuil from './components/Fauteuil';
-
+import Locaux from './components/Locaux';
+import Tarifs from './components/Tarifs';
 function App() {
    
   return (
@@ -18,6 +19,8 @@ function App() {
       <Home/> 
       <Fauteuil/>
       <PortfolioScreen/>
+      <Locaux/>
+      <Tarifs/>
       <About/>
       <ContactUs/>
 

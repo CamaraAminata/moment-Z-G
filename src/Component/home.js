@@ -123,7 +123,10 @@ export default function Home() {
                 </div>}
                 {edit && !hideEdit && <input type="text" style={{ width: 500 }} onChange={(text) => dispatchTitle(text.target.value)} defaultValue={title} placeholder="Title" />}
               </div>
-              <h1 class="wow fadeInUp" data-wow-delay=".5s" style={{ color: "#1D1614", textShadow: "1px 1px 2px rgba(0,0,0,0.2)", fontWeight: 600 }}>{title}</h1>
+              <h1 class="wow fadeInUp" data-wow-delay=".5s" style={{ color: "#1D1614", textShadow: "1px 1px 2px rgba(0,0,0,0.2)", fontWeight: 600 }}>
+                Bienvenue à<br/>
+                Un moment Z-G
+              </h1>
               <img src={logo} alt="Icône Fauteuil" style={{ width: '100%', maxWidth: '300px', height: 'auto', margin: '0 auto' }} />
 
               <p class="lead wow fadeInUp" data-wow-delay=".75s" style={{ color: "#2D2D2D", textShadow: "1px 1px 2px rgba(0,0,0,0.1)", fontWeight: 500 }}>{description}</p>

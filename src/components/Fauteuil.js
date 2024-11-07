@@ -39,7 +39,6 @@ const Fauteuil = () => {
         },
         {
             nom: "Médiform",
-            description: "Un massage complet, de la tête aux pieds.",
             caracteristiques: [
                 {
                     titre: "Analyse corporelle",
