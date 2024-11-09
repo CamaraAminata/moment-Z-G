@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/moment-Z-G/static/css/main.739fb233.css",
-    "main.js": "/moment-Z-G/static/js/main.d54a05b3.js",
+    "main.js": "/moment-Z-G/static/js/main.1a7d5d78.js",
     "static/js/651.793f131a.chunk.js": "/moment-Z-G/static/js/651.793f131a.chunk.js",
     "static/media/green-01.mp4": "/moment-Z-G/static/media/green-01.280c43dcf9cf07dee1ea.mp4",
     "static/media/FauteuilBlack.jpg": "/moment-Z-G/static/media/FauteuilBlack.95cfcfab4355f607541c.jpg",
@@ -10,11 +10,11 @@
     "static/media/logo.svg": "/moment-Z-G/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/moment-Z-G/index.html",
     "main.739fb233.css.map": "/moment-Z-G/static/css/main.739fb233.css.map",
-    "main.d54a05b3.js.map": "/moment-Z-G/static/js/main.d54a05b3.js.map",
+    "main.1a7d5d78.js.map": "/moment-Z-G/static/js/main.1a7d5d78.js.map",
     "651.793f131a.chunk.js.map": "/moment-Z-G/static/js/651.793f131a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.739fb233.css",
-    "static/js/main.d54a05b3.js"
+    "static/js/main.1a7d5d78.js"
   ]
 }
