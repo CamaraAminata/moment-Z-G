@@ -128,7 +128,7 @@ export default function ContactUs() {
                         <i className="icon_clock_alt id-color size40 mb20"></i>
                         <h6 className="id-color">{isFrench ? "Horaires d'ouverture" : "Opening Hours"}</h6>
                         <p>
-                            {isFrench ? "Du mardi au samedi de 10h00 à 13h00 et de 16h00 à 19h00" : "Tuesday to Saturday from 10:00 AM to 1:00 PM and 4:00 PM to 7:00 PM"}
+                            {isFrench ? "Du mardi au samedi de 10h00 à 13h00 et de 15h00 à 19h00" : "Tuesday to Saturday from 10:00 AM to 1:00 PM and 3:00 PM to 7:00 PM"}
                         </p>
 
                     </div>

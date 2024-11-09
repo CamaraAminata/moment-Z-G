@@ -29,7 +29,7 @@ const Fauteuil = () => {
                 },
                 {
                     titre: "Écran tactile 8 pouces",
-                    details: "Titan2 intègre une tablette à écran tactile Led de 8 pouce avec laquelle vous pouvez contrôler toute l'expérience de massage."
+                    details: "Titan 2 intègre une tablette à écran tactile Led de 8 pouce avec laquelle vous pouvez contrôler toute l'expérience de massage."
                 },
                 {
                     titre: "Bluetooth et chargeur sans fil",
@@ -77,7 +77,7 @@ const Fauteuil = () => {
                 <div className="intro-section">
                     <h2>Nos Fauteuils de Massage</h2>
                     <p className="intro-text">
-                        Nous offrons une expérience unique de relaxation avec nos 2 fauteuils massant ultra-modernes, 
+                        Nous offrons une expérience unique de relaxation avec nos 2 fauteuils massants ultra-modernes, 
                         conçus pour vous offrir un confort absolu.
                     </p>
                     <p className="intro-description">
